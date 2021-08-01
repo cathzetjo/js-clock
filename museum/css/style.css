@@ -199,6 +199,7 @@ header nav ul li {
     display: flex;
     max-width: 1920px;
     margin: 0 auto;
+    padding-bottom: 75px;
     padding-left: 240px;
     color: #FFFFFF;
     background-color: #030303;
@@ -241,11 +242,140 @@ header nav ul li {
 }
 
 .video {
-    display: flex;
+    position: relative;
     max-width: 1920px;
     margin: 0 auto;
     padding-left: 240px;
-    background-color: #d2a6a5;
+    padding-bottom: 76px;
+}
+
+.video img {
+    margin-top: 90px;
+}
+.video .tools {
+    position: relative;
+    height: 85px;
+    width: 1440px;
+    margin-top: -6px;
+    background-color: #030303;
+}
+
+.video .tools .playOnScreen {
+    position: absolute;
+    bottom: 290px;
+    left: 610px;
+}
+
+.video .tools .back {
+    position: absolute;
+    bottom: 28px;
+    left: 41px;
+}
+
+.video .tools .play {
+    position: absolute;
+    bottom: 28px;
+    left: 109px;
+}
+
+.video .tools .forward {
+    position: absolute;
+    bottom: 28px;
+    left: 172px;
+    transform: rotate(180deg);
+}
+
+.video .tools .volume {
+    position: absolute;
+    bottom: 28px;
+    left: 1102px;
+}
+
+.video .tools .resize{
+    position: absolute;
+    bottom: 25px;
+    left: 1363px;
+}
+
+
+.videoProgress {
+    position: absolute;
+    bottom: 37px;
+    left: 239px;
+    width: 820px;
+    height: 8px;
+}
+
+.videoVolume {
+    position: absolute;
+    bottom: 37px;
+    left: 1158px;
+    width: 155px;
+    height: 8px;
+}
+
+input[type='range'] {
+    overflow: hidden;
+    -webkit-appearance: none;
+    background-color: #C4C4C4;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #24809E;
+    margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #FFFFFF;
+    box-shadow: -820px 0 0 820px #24809E;
+    border-radius: 50%;
+}
+
+input[type="range"]::-moz-range-progress {
+    background-color: #24809E;
+}
+input[type="range"]::-moz-range-track {
+    background-color: #C4C4C4;
+}
+input[type="range"]::-ms-fill-lower {
+    background-color: #24809E;
+}
+input[type="range"]::-ms-fill-upper {
+    background-color: #C4C4C4;
+}
+
+
+
+
+
+
+
+
+
+
+
+.video .videoDescription {
+    display: flex;
+    width: 1440px;
+    margin-top: 40px;
+}
+
+.video h2 {
+    width: 1125px;
+    color: #9D8665;
+}
+
+.video p {
+    margin-top: 5px;
+    letter-spacing: 0.1px;
+    line-height: 39.5px;
+    margin-left: 59px;
 }
 
 .tickets {
