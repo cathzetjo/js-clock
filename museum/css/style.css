@@ -127,6 +127,7 @@ header nav ul li {
     max-width: 1920px;
     margin: 0 auto;
     padding-left: 200px;
+    padding-bottom: 20px;
 }
 
 .cards {
@@ -201,6 +202,42 @@ header nav ul li {
     padding-left: 240px;
     color: #FFFFFF;
     background-color: #030303;
+}
+
+.explore h2 {
+    margin-top: 75px;
+    padding-bottom: 22px;
+}
+
+.explore h2:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 26px;
+    margin-bottom: 80px;
+    width: 660px;
+    height: 3px;
+    background: #710707;
+}
+
+.explore p {
+    margin-bottom: 26px;
+    padding-right: 40px;
+    letter-spacing: 0.2px;
+    line-height: 38.5px;
+}
+
+.explore p span{
+    color:#CAAA7D;
+}
+
+.explore article {
+    width: 700px;
+    padding-right: 20px;
+}
+
+.explore img {
+    margin-top: 90px;
 }
 
 .video {
