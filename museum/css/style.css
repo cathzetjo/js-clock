@@ -1,0 +1,238 @@
+@import "fonts.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+    font-family: Roboto-Thin, sans-serif, serif;
+    letter-spacing: 5px;
+    background-color: #E5E5E5;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a,
+a:active {
+    text-decoration: none;
+}
+
+p, ul, h1, h2, h3, pre {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+
+nav ul a {
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 80px;
+    font-weight: 100;
+    font-family: Forum-Regular, sans-serif, serif;
+    text-transform: uppercase;
+}
+
+h3 {
+    margin-top: 19px;
+    font-size: 32px;
+    font-weight: 100;
+    font-family: Forum-Regular, sans-serif, serif;
+    text-transform: uppercase;
+}
+
+.backgroundBlack {
+    background-color: #030303;
+}
+
+header {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 83px 0 83px 240px;
+    color: #FFFFFF;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo img {
+    height: 26px;
+    margin-right: 21px;
+}
+
+.louvre {
+    margin-right: 525px;
+    padding-top: 2px;
+    font-size: 28px;
+    font-family: Forum-Regular, sans-serif, serif;
+    text-transform: uppercase;
+}
+
+header nav ul {
+    display: flex;
+    margin-top: 3px;
+    letter-spacing: 2px;
+}
+
+header nav ul li {
+    padding-right: 76px;
+}
+
+.welcome {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 240px;
+    color: #FFFFFF;
+}
+
+.welcome div {
+    margin-top: 117px;
+    position: absolute;
+    z-index: 1;
+}
+
+.welcome h2 {
+    width: 598px;
+}
+.welcome div p {
+    margin-top: 28px;
+    letter-spacing: 2.1px;
+    font-size: 28px;
+}
+
+.welcome button {
+    padding: 25px 68px;
+    font-size: 22px;
+    font-family: Roboto-Thin, sans-serif, serif;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    background-color: #710707;
+    margin-top: 75px;
+}
+
+.welcome img {
+    width: 1195px;
+    height: 750px;
+    margin: 0 0 0 auto;
+}
+
+.visiting {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 200px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    margin-right: -20px;
+    margin-bottom: 33px;
+}
+
+.visiting h2 {
+    margin-top: 76px;
+    margin-left: 40px;
+    color: #9D8665;
+}
+
+.visiting h2:after {
+     content: '';
+     display: block;
+     position: relative;
+     top: 27px;
+     margin-bottom: 80px;
+     width: 1480px;
+     height: 3px;
+     background: #710707;
+ }
+
+.visiting h3:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 9px;
+    margin-bottom: 80px;
+    width: 300px;
+    height: 2px;
+    background: #710707;
+    transition-property: width;
+    transition-duration: 1s;
+}
+
+.visiting figure:hover h3:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 9px;
+    margin-bottom: 80px;
+    width: 440px;
+    height: 2px;
+    background: #710707;
+
+}
+
+.visiting figcaption {
+    margin-bottom: -61px;
+}
+
+.visiting p {
+    margin-bottom: 8px;
+    letter-spacing: 0;
+}
+
+.visiting .panorama {
+    font-size: 18px;
+}
+
+.explore {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 240px;
+    color: #FFFFFF;
+    background-color: #030303;
+}
+
+.video {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 240px;
+    background-color: #d2a6a5;
+}
+
+.tickets {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 240px;
+    color: #FFFFFF;
+    background-color: #030303;
+}
+
+.contacts {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 240px;
+    background-color: #d2af87;
+}
+
+footer {
+    display: flex;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-left: 240px;
+    color: #FFFFFF;
+    background-color: #030303;
+}
