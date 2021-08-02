@@ -1,4 +1,5 @@
 @import "fonts.css";
+@import "scrollbar.css";
 
 html {
     scroll-behavior: smooth;
@@ -136,9 +137,7 @@ header nav ul li {
 }
 
 .welcome img {
-    width: 1195px;
-    height: 750px;
-    margin: 0 0 0 auto;
+    margin-left: 447px;
 }
 
 .visiting {
