@@ -121,7 +121,43 @@ to the Louvre</h2></pre>
 
     <div class="backgroundBlack">
     <section class="tickets">
-        tickets
+        <h2>Buy tickets</h2>
+        <div class="ticketsOrder">
+            <img src="./assets/img/tickets_picture.jpg" alt="Venus painting" title="Venus, giving Aeneas the armor made by Vulcan">
+            <div class="radioBtns">
+                <h4>Ticket type</h4>
+                <div>
+                    <input type="radio" name="ticket_type" id="rb1" checked> <label for="rb1">Permanent exhibition</label>
+                </div>
+                <div>
+                    <input type="radio" name="ticket_type" id="rb2"> <label for="rb2">Temporary exhibition</label>
+                </div>
+                <div>
+                    <input type="radio" name="ticket_type" id="rb3"> <label for="rb3">Combined Admission</label>
+                </div>
+            </div>
+            <form class="amount">
+                <h4 class="amountHeader">Amount</h4>
+                <div class="basicTickets">
+                <label for="basic">Basic 18+</label><br>
+                    <div class="change">
+                    <button class="changeValue" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
+                <input type="number" id="basic" name="basic"  value="1" min="0" max="50" step="1">
+                    <button class="changeValue" type="button" onclick="this.previousElementSibling.stepUp()">&plus;</button>
+                    </div>
+                </div>
+                <div class="seniorTickets">
+                    <label for="senior">Senior 65+</label><br>
+                    <div class="change">
+                    <button class="changeValue" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
+                    <input type="number" id="senior" name="senior"  value="1" min="0" max="50" step="1">
+                    <button class="changeValue" type="button" onclick="this.previousElementSibling.stepUp()">&plus;</button>
+                    </div>
+                </div>
+                <h4 class="total">Total &#8364;220</h4>
+                <button type="submit">Buy now</button>
+            </form>
+        </div>
     </section>
     </div>
 

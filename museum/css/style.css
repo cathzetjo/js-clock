@@ -18,7 +18,7 @@ a:active {
     text-decoration: none;
 }
 
-p, ul, h1, h2, h3, pre {
+p, ul, h1, h2, h3, h4, pre {
     margin: 0;
     padding: 0;
     font-weight: normal;
@@ -391,16 +391,6 @@ input[type="range"]::-ms-fill-upper {
     background-color: #C4C4C4;
 }
 
-
-
-
-
-
-
-
-
-
-
 .video .videoDescription {
     display: flex;
     width: 1440px;
@@ -420,12 +410,191 @@ input[type="range"]::-ms-fill-upper {
 }
 
 .tickets {
-    display: flex;
     max-width: 1920px;
     margin: 0 auto;
     padding-left: 240px;
     color: #FFFFFF;
     background-color: #030303;
+}
+
+.tickets h2 {
+    margin-top: 76px;
+    padding-bottom: 22px;
+}
+
+.tickets h2:after {
+    content: '';
+    display: block;
+    position: relative;
+    top: 26px;
+    margin-bottom: 80px;
+    width: 1440px;
+    height: 3px;
+    background: #710707;
+}
+
+.tickets img {
+    margin-bottom: 74px;
+}
+
+.ticketsOrder {
+    display: flex;
+}
+
+.ticketsOrder h4 {
+    margin-top: -1px;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.radioBtns h4 {
+    margin-bottom: 49px;
+}
+
+.ticketsOrder .radioBtns {
+    margin-left: 60px;
+    margin-right: 264px;
+}
+
+.radioBtns label {
+    letter-spacing: 0px;
+}
+
+.radioBtns div {
+    margin-bottom: 47px;
+}
+
+input[type="radio"]:checked,
+input[type="radio"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="radio"]:checked + label,
+input[type="radio"]:not(:checked) + label {
+    display: inline-block;
+    position: relative;
+    padding-left: 41px;
+    line-height: 21px;
+    letter-spacing: 0.1px;
+    cursor: pointer;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 1px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #FFFFFF;
+    background-color: transparent;
+}
+
+input[type="radio"]:checked + label:before,
+input[type="radio"]:not(:checked) + label:before {
+    border-radius: 100%;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="radio"]:checked + label:after,
+input[type="radio"]:not(:checked) + label:after {
+    left: 5px;
+    top: 6px;
+    width: 7px;
+    height: 7px;
+    border-radius: 100%;
+    background-color: #FFFFFF;
+}
+
+input[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+}
+
+input[type="radio"]:checked + label:after {
+    opacity: 1;
+}
+
+.amount .amountHeader {
+    margin-bottom: 10px;
+    margin-left: 52px;
+    letter-spacing: 0.2px;
+}
+
+.amount .basicTickets {
+    margin-top: 10px;
+}
+
+.amount .seniorTickets {
+    margin-top: 35px;
+}
+
+.amount label {
+    letter-spacing: 0px;
+}
+
+
+.amount .change {
+    display: flex;
+    height: 45px;
+    width: 145px;
+    margin-top: 14px;
+    justify-content: space-between;
+    border: 2px solid #FFFFFF;
+}
+
+.change input,
+.change button {
+    width: 33.33%;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 22px;
+    letter-spacing: 0px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.change .changeValue {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.amount input {
+    -moz-appearance: textfield;
+}
+.amount input::-webkit-inner-spin-button {
+    display: none;
+}
+
+.amount .total {
+    margin-top: 50px;
+    letter-spacing: 2.1px;
+}
+
+.amount button[type="submit"] {
+    width: 175px;
+    height: 50px;
+    margin-top: 50px;
+    margin-left: -25px;
+    font-size: 22px;
+    color: #000000;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    border: transparent;
+    background-color: #FFFFFF;
 }
 
 .contacts {
