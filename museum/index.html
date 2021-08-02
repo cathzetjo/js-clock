@@ -91,86 +91,135 @@ to the Louvre</h2></pre>
         </div>
     </section>
     <div class="backgroundBlack">
-    <section class="explore">
-        <article>
-            <h2>Picture explore</h2>
-            <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
-            <p>It was cleaned in 1984 to remove a <span>&quot;yellow veil&quot;</span> of dust that had gathered since the previous restoration in the 19th century.</p>
-            <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but because it looked different.</p>
-        </article>
-        <img src="./assets/img/explore_picture.jpg" alt="Las Meninas painting">
-    </section>
+        <section class="explore">
+            <article>
+                <h2>Picture explore</h2>
+                <p>Las Meninas is a 1656 painting by Diego Velázquez, the leading artist of the Spanish Golden Age.</p>
+                <p>It was cleaned in 1984 to remove a <span>&quot;yellow veil&quot;</span> of dust that had gathered
+                    since the previous restoration in the 19th century.</p>
+                <p>The cleaning provoked furious protests, not because the picture had been damaged in any way, but
+                    because it looked different.</p>
+            </article>
+            <img src="./assets/img/explore_picture.jpg" alt="Las Meninas painting">
+        </section>
     </div>
     <section class="video">
-           <img src="./assets/img/video.jpg" alt="Video screenshot of Louvre">
+        <img src="./assets/img/video.jpg" alt="Video screenshot of Louvre">
         <div class="tools">
-            <button class="playOnScreen"><img src="./assets/svg/video_play_on_screen.svg" alt="Press to play video"></button>
+            <button class="playOnScreen"><img src="./assets/svg/video_play_on_screen.svg" alt="Press to play video">
+            </button>
             <button class="back"><img src="./assets/svg/video_left.svg" alt="Press to play previous video"></button>
             <button class="play"><img src="./assets/svg/video_play.svg" alt="Press to play video"></button>
             <button class="forward"><img src="./assets/svg/video_left.svg" alt="Press to play next video"></button>
             <input class="videoProgress" type="range" value="47.3" min="0" max="100" step="1">
             <button class="volume"><img src="./assets/svg/video_volume.svg" alt="Volume icon"></button>
             <input class="videoVolume" type="range" value="4.32" min="0" max="10" step="0.1">
-            <button class="resize"><img src="./assets/svg/video_resize.svg" alt="Press to open video on full screen"></button>
+            <button class="resize"><img src="./assets/svg/video_resize.svg" alt="Press to open video on full screen">
+            </button>
         </div>
         <div class="videoDescription">
             <h2>Video journey</h2>
-            <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or Hammurabi's Code</p>
+            <p>Enter and visit one of the most famous museums in the world and enjoy masterpieces such as Mona Lisa or
+                Hammurabi's Code</p>
         </div>
     </section>
 
     <div class="backgroundBlack">
-    <section class="tickets">
-        <h2>Buy tickets</h2>
-        <div class="ticketsOrder">
-            <img src="./assets/img/tickets_picture.jpg" alt="Venus painting" title="Venus, giving Aeneas the armor made by Vulcan">
-            <div class="radioBtns">
-                <h4>Ticket type</h4>
-                <div>
-                    <input type="radio" name="ticket_type" id="rb1" checked> <label for="rb1">Permanent exhibition</label>
+        <section class="tickets">
+            <h2>Buy tickets</h2>
+            <div class="ticketsOrder">
+                <img src="./assets/img/tickets_picture.jpg" alt="Venus painting"
+                     title="Venus, giving Aeneas the armor made by Vulcan">
+                <div class="radioBtns">
+                    <h4>Ticket type</h4>
+                    <div>
+                        <input type="radio" name="ticket_type" id="rb1" checked> <label for="rb1">Permanent
+                        exhibition</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ticket_type" id="rb2"> <label for="rb2">Temporary exhibition</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="ticket_type" id="rb3"> <label for="rb3">Combined Admission</label>
+                    </div>
                 </div>
-                <div>
-                    <input type="radio" name="ticket_type" id="rb2"> <label for="rb2">Temporary exhibition</label>
-                </div>
-                <div>
-                    <input type="radio" name="ticket_type" id="rb3"> <label for="rb3">Combined Admission</label>
-                </div>
+                <form class="amount">
+                    <h4 class="amountHeader">Amount</h4>
+                    <div class="basicTickets">
+                        <label for="basic">Basic 18+</label><br>
+                        <div class="change">
+                            <button class="changeValue" type="button" onclick="this.nextElementSibling.stepDown()">
+                                &minus;
+                            </button>
+                            <input type="number" id="basic" name="basic" value="1" min="0" max="50" step="1">
+                            <button class="changeValue" type="button" onclick="this.previousElementSibling.stepUp()">
+                                &plus;
+                            </button>
+                        </div>
+                    </div>
+                    <div class="seniorTickets">
+                        <label for="senior">Senior 65+</label><br>
+                        <div class="change">
+                            <button class="changeValue" type="button" onclick="this.nextElementSibling.stepDown()">
+                                &minus;
+                            </button>
+                            <input type="number" id="senior" name="senior" value="1" min="0" max="50" step="1">
+                            <button class="changeValue" type="button" onclick="this.previousElementSibling.stepUp()">
+                                &plus;
+                            </button>
+                        </div>
+                    </div>
+                    <h4 class="total">Total &#8364;220</h4>
+                    <button type="submit">Buy now</button>
+                </form>
             </div>
-            <form class="amount">
-                <h4 class="amountHeader">Amount</h4>
-                <div class="basicTickets">
-                <label for="basic">Basic 18+</label><br>
-                    <div class="change">
-                    <button class="changeValue" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
-                <input type="number" id="basic" name="basic"  value="1" min="0" max="50" step="1">
-                    <button class="changeValue" type="button" onclick="this.previousElementSibling.stepUp()">&plus;</button>
-                    </div>
-                </div>
-                <div class="seniorTickets">
-                    <label for="senior">Senior 65+</label><br>
-                    <div class="change">
-                    <button class="changeValue" type="button" onclick="this.nextElementSibling.stepDown()">&minus;</button>
-                    <input type="number" id="senior" name="senior"  value="1" min="0" max="50" step="1">
-                    <button class="changeValue" type="button" onclick="this.previousElementSibling.stepUp()">&plus;</button>
-                    </div>
-                </div>
-                <h4 class="total">Total &#8364;220</h4>
-                <button type="submit">Buy now</button>
-            </form>
-        </div>
-    </section>
+        </section>
     </div>
 
     <section class="contacts">
-        contacts
+        <h2>Contacts</h2>
+        <div class="contactsData">
+            <div class="data">
+                <p>Palais Royal</p>
+                <p>Musee du Louvre</p>
+                <ul>
+                    <li>address: <a
+                            href="https://www.google.fr/maps/place/Mus%C3%A9e+du+Louvre/@48.8606111,2.3354553,17z/data=!3m1!4b1!4m5!3m4!1s0x47e671d877937b0f:0xb975fcfa192f84d4!8m2!3d48.8606111!4d2.337644"
+                            target="_blank">75001 Paris, France</a></li>
+                    <li>phone: <a href="tel:+330140205050">+33(0) 1 40 20 50 50</a></li>
+                    <li>mail: <a href="mailto:info@louvre.fr">info@louvre.fr</a></li>
+                </ul>
+            </div>
+            <img src="./assets/img/contacts_map.png" alt="map" title="Map of Louvre">
+        </div>
     </section>
 
 </main>
 
 <div class="backgroundBlack">
-<footer>
-    footer
-</footer>
+    <footer>
+        <div class="logo">
+            <img src="assets/img/logo.png" alt="Logo Louvre">
+            <h3 class="louvre">louvre</h3>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Welcome</a></li>
+                <li><a href="#">Video</a></li>
+                <li><a href="#">Visiting</a></li>
+                <li><a href="#">Tickets</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Contacts</a></li>
+            </ul>
+        </nav>
+        <ul class="social">
+            <li><a href="#"><img src="./assets/svg/Youtube.svg" alt="Youtube icon"></a></li>
+            <li><a href="#"><img src="./assets/svg/Instagram.svg" alt="Instagram icon"></a></li>
+            <li><a href="#"><img src="./assets/svg/Facebook.svg" alt="Facebook icon"></a></li>
+            <li><a href="#"><img src="./assets/svg/Twitter.svg" alt="Twitter icon"></a></li>
+            <li><a href="#"><img src="./assets/svg/Pinterest.svg" alt="Pinterest icon"></a></li>
+        </ul>
+    </footer>
 </div>
 </body>
 </html>
