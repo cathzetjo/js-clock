@@ -264,24 +264,58 @@ header nav ul li {
     position: absolute;
     bottom: 290px;
     left: 610px;
+    height: 220px;
+    width: 220px;
+    background-color: transparent;
+    border-radius: 100%;
+    border: none;
+}
+
+.video .tools .playOnScreen img {
+    margin-top: -3px;
+    margin-left: -7px;
 }
 
 .video .tools .back {
     position: absolute;
     bottom: 28px;
     left: 41px;
+    height: 30px;
+    width: 27px;
+    background-color: transparent;
+    border: none;
+}
+
+.video .tools .back img,
+.video .tools .play img,
+.video .tools .forward img,
+.video .tools .volume img,
+.video .tools .resize img {
+    margin-top: -3px;
+    margin-left: -8px;
 }
 
 .video .tools .play {
     position: absolute;
     bottom: 28px;
     left: 109px;
+    height: 30px;
+    width: 23px;
+    background-color: transparent;
+    border: none;
 }
 
 .video .tools .forward {
     position: absolute;
     bottom: 28px;
     left: 172px;
+    height: 30px;
+    width: 27px;
+    background-color: transparent;
+    border: none;
+}
+
+.video .tools .forward img {
     transform: rotate(180deg);
 }
 
@@ -289,14 +323,21 @@ header nav ul li {
     position: absolute;
     bottom: 28px;
     left: 1102px;
+    height: 30px;
+    width: 38px;
+    background-color: transparent;
+    border: none;
 }
 
-.video .tools .resize{
+.video .tools .resize {
     position: absolute;
     bottom: 25px;
     left: 1363px;
+    height: 36px;
+    width: 36px;
+    background-color: transparent;
+    border: none;
 }
-
 
 .videoProgress {
     position: absolute;
