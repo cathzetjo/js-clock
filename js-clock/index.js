@@ -35,4 +35,36 @@ function setTime() {
 
 setInterval(setTime, 1000);
 
+let switcher = 0;
+
+function changeTheme() {
+    const backgroundPicture = document.querySelector('body');
+    const mainCircle = document.querySelector('main');
+    const numbers = document.querySelector('.numbers');
+    const circle = document.querySelector('.circle');
+    const arrowHours = document.querySelector('.arrow-hours');
+    const arrowMinutes = document.querySelector('.arrow-minutes');
+    const timeAndDate = document.querySelector('.time-and-date');
+    if (!switcher) {
+        switcher=1;
+        backgroundPicture.style.backgroundImage='url("./assets/img/background_light.jpg")';
+        mainCircle.style.borderColor='rgb(0, 0, 0)';
+        numbers.style.color='rgb(0, 0, 0)';
+        circle.style.backgroundColor='rgb(0, 0, 0)';
+        arrowHours.style.background='linear-gradient(to right, #000 50%, transparent 50%)';
+        arrowMinutes.style.background='linear-gradient(to right, #000 50%, transparent 50%)';
+        timeAndDate.style.color='rgb(0, 0, 0)';
+    }
+    else {
+        switcher=0;
+        backgroundPicture.style.backgroundImage='url("./assets/img/background_dark.jpg")';
+        mainCircle.style.borderColor='rgb(238, 238, 238)';
+        numbers.style.color='rgb(238, 238, 238)';
+        circle.style.backgroundColor='rgb(238, 238, 238)';
+        arrowHours.style.background='linear-gradient(to right, rgb(238, 238, 238) 50%, transparent 50%)';
+        arrowMinutes.style.background='linear-gradient(to right, rgb(238, 238, 238) 50%, transparent 50%)';
+        timeAndDate.style.color='rgb(238, 238, 238)';
+    }
+}
+
 
