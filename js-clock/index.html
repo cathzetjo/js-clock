@@ -10,11 +10,43 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 <body>
+<h1>Online clock</h1>
 <div class="container">
     <header>
         <button role="button" id="change-theme-btn" onclick="changeTheme()"><span class="text">Theme</span><span>Change</span></button>
     </header>
     <main>
+        <div class="city1">
+            <h2>New York</h2>
+        <div class="city1-clock">
+            <div class="clock">
+                <div class="arrow-city1 arrow-hours-city1"></div>
+                <div class="arrow-city1 arrow-minutes-city1"></div>
+                <div class="circle-city1"></div>
+                <div class="numbers-city1">
+                    <p class="one">1</p>
+                    <p class="two">2</p>
+                    <p class="three">3</p>
+                    <p class="four">4</p>
+                    <p class="five">5</p>
+                    <p class="six">6</p>
+                    <p class="seven">7</p>
+                    <p class="eight">8</p>
+                    <p class="nine">9</p>
+                    <p class="ten">10</p>
+                    <p class="eleven">11</p>
+                    <p class="twelve">12</p>
+                </div>
+            </div>
+        </div>
+        <div class="time-and-date time-and-date-city1">
+            <p class="time-city1"></p>
+            <p class="date-city1"></p>
+        </div>
+</div>
+<div class="local">
+    <h2>Local</h2>
+    <div class="local-clock">
         <div class="clock">
             <div class="arrow arrow-hours"></div>
             <div class="arrow arrow-minutes"></div>
@@ -35,13 +67,41 @@
                 <p class="twelve">12</p>
             </div>
         </div>
-    </main>
-    <footer>
-        <div class="time-and-date">
-            <p class="time"></p>
-            <p class="date"></p>
+    </div>
+    <div class="time-and-date time-and-date-local">
+        <p class="time-local"></p>
+        <p class="date-local"></p>
+    </div>
+</div>
+        <div class="city2">
+            <h2>Tokyo</h2>
+        <div class="city2-clock">
+            <div class="clock">
+                <div class="arrow-city2 arrow-hours-city2"></div>
+                <div class="arrow-city2 arrow-minutes-city2"></div>
+                <div class="circle-city2"></div>
+                <div class="numbers-city2">
+                    <p class="one">1</p>
+                    <p class="two">2</p>
+                    <p class="three">3</p>
+                    <p class="four">4</p>
+                    <p class="five">5</p>
+                    <p class="six">6</p>
+                    <p class="seven">7</p>
+                    <p class="eight">8</p>
+                    <p class="nine">9</p>
+                    <p class="ten">10</p>
+                    <p class="eleven">11</p>
+                    <p class="twelve">12</p>
+                </div>
+            </div>
         </div>
-    </footer>
+            <div class="time-and-date time-and-date-city2">
+                <p class="time-city2"></p>
+                <p class="date-city2"></p>
+            </div>
+        </div>
+    </main>
 </div>
 <script src="index.js"></script>
 </body>

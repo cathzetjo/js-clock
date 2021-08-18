@@ -2,7 +2,7 @@
      position: relative;
      font-family: Banty-Bold, sans-serif;
      font-size: 3em;
-     color: #eeeeee;
+     color: #fafafa;
  }
 
  .numbers p {
@@ -68,4 +68,152 @@
  .numbers .twelve {
      left: 126px;
      top: -37px;
+ }
+
+
+ .numbers-city1 {
+       position: relative;
+       font-family: Banty-Bold, sans-serif;
+       font-size: 1.5em;
+       color: #eeeeee;
+   }
+
+ .numbers-city1 p {
+     margin: 0;
+     padding: 0;
+     position: absolute;
+ }
+
+ .numbers-city1 .one {
+     left: 170px;
+     top: -24px;
+ }
+
+ .numbers-city1 .two {
+     left: 203px;
+     top: 19px;
+ }
+
+ .numbers-city1 .three {
+     left: 216px;
+     top: 80px;
+ }
+
+ .numbers-city1 .four {
+     left: 210px;
+     top: 141px;
+ }
+
+ .numbers-city1 .five {
+     left: 163px;
+     top: 195px;
+ }
+
+ .numbers-city1 .six {
+     left: 94px;
+     top: 217px;
+ }
+
+ .numbers-city1 .seven {
+     left: 28px;
+     top: 196px;
+ }
+
+ .numbers-city1 .eight {
+     top: 144px;
+     left: -21px;
+ }
+
+ .numbers-city1 .nine {
+     left: -39px;
+     top: 86px;
+ }
+
+ .numbers-city1 .ten {
+     left: -30px;
+     top: 24px;
+ }
+
+ .numbers-city1 .eleven {
+     left: 29px;
+     top: -32px;
+ }
+
+ .numbers-city1 .twelve {
+     left: 98px;
+     top: -48px;
+ }
+
+
+ .numbers-city2 {
+     position: relative;
+     font-family: Banty-Bold, sans-serif;
+     font-size: 1.5em;
+     color: #eeeeee;
+ }
+
+ .numbers-city2 p {
+     margin: 0;
+     padding: 0;
+     position: absolute;
+ }
+
+ .numbers-city2 .one {
+     left: 170px;
+     top: -24px;
+ }
+
+ .numbers-city2 .two {
+     left: 203px;
+     top: 19px;
+ }
+
+ .numbers-city2 .three {
+     left: 216px;
+     top: 80px;
+ }
+
+ .numbers-city2 .four {
+     left: 210px;
+     top: 141px;
+ }
+
+ .numbers-city2 .five {
+     left: 163px;
+     top: 195px;
+ }
+
+ .numbers-city2 .six {
+     left: 100px;
+     top: 217px;
+ }
+
+ .numbers-city2 .seven {
+     left: 28px;
+     top: 196px;
+ }
+
+ .numbers-city2 .eight {
+     top: 144px;
+     left: -21px;
+ }
+
+ .numbers-city2 .nine {
+     left: -39px;
+     top: 86px;
+ }
+
+ .numbers-city2 .ten {
+     left: -30px;
+     top: 24px;
+ }
+
+ .numbers-city2 .eleven {
+     left: 29px;
+     top: -32px;
+ }
+
+ .numbers-city2 .twelve {
+     left: 98px;
+     top: -48px;
  }
