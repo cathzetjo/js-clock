@@ -1,0 +1,69 @@
+ .numbers {
+     position: relative;
+     font-family: Banty-Bold, sans-serif;
+     font-size: 3em;
+     color: #eeeeee;
+ }
+
+ .numbers div {
+     position: absolute;
+ }
+
+ .numbers .one {
+     left: 219px;
+     top: -16px;
+ }
+
+.numbers .two {
+    left: 277px;
+    top: 41px;
+}
+
+ .numbers .three {
+     left: 299px;
+     top: 120px;
+ }
+
+ .numbers .four {
+     left: 278px;
+     top: 199px;
+ }
+
+ .numbers .five {
+     left: 215px;
+     top: 266px;
+ }
+
+ .numbers .six {
+     left: 138px;
+     top: 278px;
+ }
+
+ .numbers .seven {
+     left: 57px;
+     top: 257px;
+ }
+
+ .numbers .eight {
+     top: 201px;
+ }
+
+ .numbers .nine {
+     left: -21px;
+     top: 120px;
+ }
+
+ .numbers .ten {
+     left: -12px;
+     top: 41px;
+ }
+
+ .numbers .eleven {
+     left: 48px;
+     top: -16px;
+ }
+
+ .numbers .twelve {
+     left: 126px;
+     top: -37px;
+ }
