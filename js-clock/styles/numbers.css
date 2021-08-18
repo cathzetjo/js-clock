@@ -5,7 +5,9 @@
      color: #eeeeee;
  }
 
- .numbers div {
+ .numbers p {
+     margin: 0;
+     padding: 0;
      position: absolute;
  }
 

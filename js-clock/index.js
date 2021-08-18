@@ -12,6 +12,25 @@ function setTime() {
     secondsArrow.style.transform = `rotate(${secondsToDegrees}deg)`;
     minutesArrow.style.transform = `rotate(${minutesToDegrees}deg)`;
     hoursArrow.style.transform = `rotate(${hoursToDegrees}deg)`;
+
+    const timeParagraph = document.querySelector('.time');
+    const dateParagraph = document.querySelector('.date');
+    const optionsForTime = {
+        timezone: 'UTC',
+        hour: 'numeric',
+        minute: 'numeric',
+        second: 'numeric'
+    };
+    const optionsForDate = {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        weekday: 'long',
+    };
+    const time = currentDate.toLocaleString("en-US", optionsForTime);
+    const date = currentDate.toLocaleString("en-US", optionsForDate);
+    timeParagraph.innerHTML=time;
+    dateParagraph.innerHTML=date;
 }
 
 setInterval(setTime, 1000);
