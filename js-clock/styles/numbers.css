@@ -2,7 +2,7 @@
      position: relative;
      font-family: Banty-Bold, sans-serif;
      font-size: 3em;
-     color: #fafafa;
+     color: var(--color);
  }
 
  .numbers p {
@@ -71,149 +71,137 @@
  }
 
 
- .numbers-city1 {
+ .numbers-cityLeft,
+ .numbers-cityRight {
        position: relative;
        font-family: Banty-Bold, sans-serif;
        font-size: 1.5em;
-       color: #eeeeee;
+       color: var(--color);
    }
 
- .numbers-city1 p {
+ .numbers-cityLeft p,
+ .numbers-cityRight p {
      margin: 0;
      padding: 0;
      position: absolute;
  }
 
- .numbers-city1 .one {
+ .numbers-cityLeft .one {
      left: 170px;
      top: -24px;
  }
 
- .numbers-city1 .two {
+ .numbers-cityLeft .two {
      left: 203px;
      top: 19px;
  }
 
- .numbers-city1 .three {
+ .numbers-cityLeft .three {
      left: 216px;
      top: 80px;
  }
 
- .numbers-city1 .four {
+ .numbers-cityLeft .four {
      left: 210px;
      top: 141px;
  }
 
- .numbers-city1 .five {
+ .numbers-cityLeft .five {
      left: 163px;
      top: 195px;
  }
 
- .numbers-city1 .six {
+ .numbers-cityLeft .six {
      left: 94px;
      top: 217px;
  }
 
- .numbers-city1 .seven {
+ .numbers-cityLeft .seven {
      left: 28px;
      top: 196px;
  }
 
- .numbers-city1 .eight {
+ .numbers-cityLeft .eight {
      top: 144px;
      left: -21px;
  }
 
- .numbers-city1 .nine {
+ .numbers-cityLeft .nine {
      left: -39px;
      top: 86px;
  }
 
- .numbers-city1 .ten {
+ .numbers-cityLeft .ten {
      left: -30px;
      top: 24px;
  }
 
- .numbers-city1 .eleven {
+ .numbers-cityLeft .eleven {
      left: 29px;
      top: -32px;
  }
 
- .numbers-city1 .twelve {
+ .numbers-cityLeft .twelve {
      left: 98px;
      top: -48px;
  }
 
-
- .numbers-city2 {
-     position: relative;
-     font-family: Banty-Bold, sans-serif;
-     font-size: 1.5em;
-     color: #eeeeee;
- }
-
- .numbers-city2 p {
-     margin: 0;
-     padding: 0;
-     position: absolute;
- }
-
- .numbers-city2 .one {
+ .numbers-cityRight .one {
      left: 170px;
      top: -24px;
  }
 
- .numbers-city2 .two {
+ .numbers-cityRight .two {
      left: 203px;
      top: 19px;
  }
 
- .numbers-city2 .three {
+ .numbers-cityRight .three {
      left: 216px;
      top: 80px;
  }
 
- .numbers-city2 .four {
+ .numbers-cityRight .four {
      left: 210px;
      top: 141px;
  }
 
- .numbers-city2 .five {
+ .numbers-cityRight .five {
      left: 163px;
      top: 195px;
  }
 
- .numbers-city2 .six {
+ .numbers-cityRight .six {
      left: 100px;
      top: 217px;
  }
 
- .numbers-city2 .seven {
+ .numbers-cityRight .seven {
      left: 28px;
      top: 196px;
  }
 
- .numbers-city2 .eight {
+ .numbers-cityRight .eight {
      top: 144px;
      left: -21px;
  }
 
- .numbers-city2 .nine {
+ .numbers-cityRight .nine {
      left: -39px;
      top: 86px;
  }
 
- .numbers-city2 .ten {
+ .numbers-cityRight .ten {
      left: -30px;
      top: 24px;
  }
 
- .numbers-city2 .eleven {
+ .numbers-cityRight .eleven {
      left: 29px;
      top: -32px;
  }
 
- .numbers-city2 .twelve {
+ .numbers-cityRight .twelve {
      left: 98px;
      top: -48px;
  }

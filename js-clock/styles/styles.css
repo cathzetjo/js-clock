@@ -1,6 +1,22 @@
 @import "fonts.css";
 @import "numbers.css";
 
+:root {
+    --color: #eeeeee;
+    --bg-image: url("../assets/img/background_dark.jpg");
+}
+
+[data-theme='light']{
+    --color: #000000;
+    --bg-image: url("../assets/img/background_light.jpg");
+}
+
+[data-theme='dark']{
+    --color: #eeeeee;
+    --bg-image: url("../assets/img/background_dark.jpg");
+}
+
+
 html {
     margin: 0;
     padding: 0;
@@ -12,7 +28,7 @@ body {
     padding: 0;
     text-align: center;
     background-color: #333333;
-    background-image: url("../assets/img/background_dark.jpg");
+    background-image: var(--bg-image);
     background-position: center;
     background-size: cover;
     font-family: VarelaRound-Regular, sans-serif;
@@ -30,7 +46,7 @@ h1 {
 
 h2 {
     font-size: 30px;
-    color: #eeeeee;
+    color: var(--color);
     margin-bottom: 50px;
 }
 
@@ -63,7 +79,7 @@ h2 {
 }
 
 #change-theme-btn span:last-child {
-    color: white;
+    color: #eeeeee;
     display: block;
     position: absolute;
     bottom: 0;
@@ -109,7 +125,7 @@ main {
     margin-top: 5%;
 }
 
-.city1, .local, .city2 {
+.cityLeft, .local, .cityRight {
     text-align: center;
     text-align: -webkit-center;
 }
@@ -120,7 +136,7 @@ main {
     width: 300px;
     height: 300px;
     min-width: 300px;
-    border: 12px dotted white;
+    border: 12px dotted var(--color);
     border-radius: 50%;
 }
 
@@ -138,7 +154,7 @@ main {
     height: 25px;
     border: none;
     border-radius: 50%;
-    background-color: #eeeeee;
+    background-color: var(--color);
 }
 
 .arrow {
@@ -148,7 +164,7 @@ main {
     width: 80%;
     height: 6px;
     border-radius: 5px;
-    background: linear-gradient(to right, #eee 50%, transparent 50%);
+    background: linear-gradient(to right, var(--color) 50%, transparent 50%);
 }
 
 .arrow-hours {
@@ -163,18 +179,18 @@ main {
     background: linear-gradient(to right, #ED0600 50%, transparent 50%);
 }
 
-.city1-clock,
-.city2-clock {
+.cityLeft-clock,
+.cityRight-clock {
     padding: 55px;
     width: 200px;
     height: 200px;
     min-width: 200px;
-    border: 5px dotted white;
+    border: 5px dotted var(--color);
     border-radius: 50%;
 }
 
-.circle-city1,
-.circle-city2 {
+.circle-cityLeft,
+.circle-cityRight {
     position: absolute;
     top: 91px;
     left: 92px;
@@ -182,22 +198,22 @@ main {
     height: 23px;
     border: none;
     border-radius: 50%;
-    background-color: #eeeeee;
+    background-color: var(--color);
 }
 
-.arrow-city1,
-.arrow-city2 {
+.arrow-cityLeft,
+.arrow-cityRight {
     position: absolute;
     top: 50%;
     left: 1%;
     width: 100%;
     height: 4px;
     border-radius: 5px;
-    background: linear-gradient(to right, #eee 50%, transparent 50%);
+    background: linear-gradient(to right, var(--color) 50%, transparent 50%);
 }
 
-.arrow-hours-city1,
-.arrow-hours-city2 {
+.arrow-hours-cityLeft,
+.arrow-hours-cityRight {
     top: 49%;
     left: 39px;
     width: 65%;
@@ -207,10 +223,10 @@ main {
 .time-and-date {
     margin-top: 100px;
     font-size: 34px;
-    color: #eeeeee;
+    color: var(--color);
 }
 
-.time-and-date-city1,
-.time-and-date-city2 {
+.time-and-date-cityLeft,
+.time-and-date-cityRight {
     font-size: 24px;
 }
