@@ -94,4 +94,13 @@ function changeTheme() {
     }
 }
 
+function selfRating() {
+    const selfRating = `Self-rating (+30 max):\n 1) Repeat original project (+10) \n 2) Required additional functionality (+10)\n ` +
+        `   a) exact time (hours minutes and seconds)\n    b) full name of the day of the week\n    c) date (day and month name)\n    d) year\n ` +
+        `3) Additional functionality (at choose) (+10):\n ` +
+        `   a) shows the time in different parts of the planet (local, Tokyo, New York)\n    b) Ability to switch the theme\n`;
+    console.log(selfRating);
+}
+
+selfRating();
 
