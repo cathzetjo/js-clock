@@ -1,0 +1,207 @@
+ .numbers {
+     position: relative;
+     font-family: Banty-Bold, sans-serif;
+     font-size: 3em;
+     color: var(--color);
+ }
+
+ .numbers p {
+     margin: 0;
+     padding: 0;
+     position: absolute;
+ }
+
+ .numbers .one {
+     left: 219px;
+     top: -16px;
+ }
+
+.numbers .two {
+    left: 277px;
+    top: 41px;
+}
+
+ .numbers .three {
+     left: 299px;
+     top: 120px;
+ }
+
+ .numbers .four {
+     left: 278px;
+     top: 199px;
+ }
+
+ .numbers .five {
+     left: 215px;
+     top: 266px;
+ }
+
+ .numbers .six {
+     left: 138px;
+     top: 278px;
+ }
+
+ .numbers .seven {
+     left: 57px;
+     top: 257px;
+ }
+
+ .numbers .eight {
+     top: 201px;
+ }
+
+ .numbers .nine {
+     left: -21px;
+     top: 120px;
+ }
+
+ .numbers .ten {
+     left: -12px;
+     top: 41px;
+ }
+
+ .numbers .eleven {
+     left: 48px;
+     top: -16px;
+ }
+
+ .numbers .twelve {
+     left: 126px;
+     top: -37px;
+ }
+
+
+ .numbers-cityLeft,
+ .numbers-cityRight {
+       position: relative;
+       font-family: Banty-Bold, sans-serif;
+       font-size: 1.5em;
+       color: var(--color);
+   }
+
+ .numbers-cityLeft p,
+ .numbers-cityRight p {
+     margin: 0;
+     padding: 0;
+     position: absolute;
+ }
+
+ .numbers-cityLeft .one {
+     left: 170px;
+     top: -24px;
+ }
+
+ .numbers-cityLeft .two {
+     left: 203px;
+     top: 19px;
+ }
+
+ .numbers-cityLeft .three {
+     left: 216px;
+     top: 80px;
+ }
+
+ .numbers-cityLeft .four {
+     left: 210px;
+     top: 141px;
+ }
+
+ .numbers-cityLeft .five {
+     left: 163px;
+     top: 195px;
+ }
+
+ .numbers-cityLeft .six {
+     left: 94px;
+     top: 217px;
+ }
+
+ .numbers-cityLeft .seven {
+     left: 28px;
+     top: 196px;
+ }
+
+ .numbers-cityLeft .eight {
+     top: 144px;
+     left: -21px;
+ }
+
+ .numbers-cityLeft .nine {
+     left: -39px;
+     top: 86px;
+ }
+
+ .numbers-cityLeft .ten {
+     left: -30px;
+     top: 24px;
+ }
+
+ .numbers-cityLeft .eleven {
+     left: 29px;
+     top: -32px;
+ }
+
+ .numbers-cityLeft .twelve {
+     left: 98px;
+     top: -48px;
+ }
+
+ .numbers-cityRight .one {
+     left: 170px;
+     top: -24px;
+ }
+
+ .numbers-cityRight .two {
+     left: 203px;
+     top: 19px;
+ }
+
+ .numbers-cityRight .three {
+     left: 216px;
+     top: 80px;
+ }
+
+ .numbers-cityRight .four {
+     left: 210px;
+     top: 141px;
+ }
+
+ .numbers-cityRight .five {
+     left: 163px;
+     top: 195px;
+ }
+
+ .numbers-cityRight .six {
+     left: 100px;
+     top: 217px;
+ }
+
+ .numbers-cityRight .seven {
+     left: 28px;
+     top: 196px;
+ }
+
+ .numbers-cityRight .eight {
+     top: 144px;
+     left: -21px;
+ }
+
+ .numbers-cityRight .nine {
+     left: -39px;
+     top: 86px;
+ }
+
+ .numbers-cityRight .ten {
+     left: -30px;
+     top: 24px;
+ }
+
+ .numbers-cityRight .eleven {
+     left: 29px;
+     top: -32px;
+ }
+
+ .numbers-cityRight .twelve {
+     left: 98px;
+     top: -48px;
+ }

@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clock</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+<h1>Online clock</h1>
+<div class="container">
+    <header>
+        <button id="change-theme-btn" onclick="changeTheme()"><span class="text">Theme</span><span>Change</span></button>
+    </header>
+    <main>
+        <div class="cityLeft">
+            <h2>New York</h2>
+        <div class="cityLeft-clock">
+            <div class="clock">
+                <div class="arrow-cityLeft arrow-hours-cityLeft"></div>
+                <div class="arrow-cityLeft arrow-minutes-cityLeft"></div>
+                <div class="circle-cityLeft"></div>
+                <div class="numbers-cityLeft">
+                    <p class="one">1</p>
+                    <p class="two">2</p>
+                    <p class="three">3</p>
+                    <p class="four">4</p>
+                    <p class="five">5</p>
+                    <p class="six">6</p>
+                    <p class="seven">7</p>
+                    <p class="eight">8</p>
+                    <p class="nine">9</p>
+                    <p class="ten">10</p>
+                    <p class="eleven">11</p>
+                    <p class="twelve">12</p>
+                </div>
+            </div>
+        </div>
+        <div class="time-and-date time-and-date-cityLeft">
+            <p class="time-cityLeft"></p>
+            <p class="date-cityLeft"></p>
+        </div>
+</div>
+<div class="local">
+    <h2>Local</h2>
+    <div class="local-clock">
+        <div class="clock">
+            <div class="arrow arrow-hours"></div>
+            <div class="arrow arrow-minutes"></div>
+            <div class="arrow arrow-seconds"></div>
+            <div class="circle"></div>
+            <div class="numbers">
+                <p class="one">1</p>
+                <p class="two">2</p>
+                <p class="three">3</p>
+                <p class="four">4</p>
+                <p class="five">5</p>
+                <p class="six">6</p>
+                <p class="seven">7</p>
+                <p class="eight">8</p>
+                <p class="nine">9</p>
+                <p class="ten">10</p>
+                <p class="eleven">11</p>
+                <p class="twelve">12</p>
+            </div>
+        </div>
+    </div>
+    <div class="time-and-date time-and-date-local">
+        <p class="time-local"></p>
+        <p class="date-local"></p>
+    </div>
+</div>
+        <div class="cityRight">
+            <h2>Tokyo</h2>
+        <div class="cityRight-clock">
+            <div class="clock">
+                <div class="arrow-cityRight arrow-hours-cityRight"></div>
+                <div class="arrow-cityRight arrow-minutes-cityRight"></div>
+                <div class="circle-cityRight"></div>
+                <div class="numbers-cityRight">
+                    <p class="one">1</p>
+                    <p class="two">2</p>
+                    <p class="three">3</p>
+                    <p class="four">4</p>
+                    <p class="five">5</p>
+                    <p class="six">6</p>
+                    <p class="seven">7</p>
+                    <p class="eight">8</p>
+                    <p class="nine">9</p>
+                    <p class="ten">10</p>
+                    <p class="eleven">11</p>
+                    <p class="twelve">12</p>
+                </div>
+            </div>
+        </div>
+            <div class="time-and-date time-and-date-cityRight">
+                <p class="time-cityRight"></p>
+                <p class="date-cityRight"></p>
+            </div>
+        </div>
+    </main>
+</div>
+<script src="index.js"></script>
+</body>
+</html>
