@@ -1,8 +1,4 @@
-# cathzetjo-JSFEPRESCHOOL
+# Clock: time&date: Local (Minsk), London, New York 
 
-Private repository for @cathzetjo
-
-[task js30 (js-clock)](https://rolling-scopes-school.github.io/cathzetjo-JSFEPRESCHOOL/js-clock/)
-
-[Task Museum](https://rolling-scopes-school.github.io/cathzetjo-JSFEPRESCHOOL/museum/)
+[link on deploy](https://cathzetjo.github.io/js-clock/)
 
